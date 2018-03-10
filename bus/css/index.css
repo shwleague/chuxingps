@@ -1,0 +1,221 @@
+/*
+* @Author: Administrator
+* @Date:   2018-01-04 17:56:21
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-01-11 14:44:19
+*/
+@import url('bace.css');
+@font-face {
+	font-family: 'iconfont';  /* project id 531082 */
+	src: url('https://at.alicdn.com/t/font_531082_c31n5zg3xboz85mi.eot');
+	src: url('https://at.alicdn.com/t/font_531082_c31n5zg3xboz85mi.eot?#iefix') format('embedded-opentype'),
+	url('https://at.alicdn.com/t/font_531082_c31n5zg3xboz85mi.woff') format('woff'),
+	url('https://at.alicdn.com/t/font_531082_c31n5zg3xboz85mi.ttf') format('truetype'),
+	url('https://at.alicdn.com/t/font_531082_c31n5zg3xboz85mi.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+}
+body{
+	height: auto;
+}
+.head{
+	width: 100%;
+	height: 0.44rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.head .headli{
+	padding: 0.02rem 0.2rem;
+	background:  #3879D9;
+	height: 0.4rem;
+}
+.head .headli li{
+	width: auto;
+	float: left;
+	height: 0.4rem;
+}
+.head .headli li:last-child{
+	float: right;
+}
+.head .headli li .dingwei{
+	font-size: 0.13rem;
+	width: auto;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	float: left;
+	color: #fff;
+}
+.head .headli li .iconfont{
+	font-style: normal;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	font-size: 0.12rem;
+	float: left;
+	color: #fff;
+}
+.head .headli li .sou{
+	width: 2.26rem;
+	height: 0.32rem;
+	background: #eff2f6;
+	margin: 0.04rem 0  0 0; 
+	border-radius: 0.05rem;
+
+}
+.head .headli li .sou .souzi{
+	font-size: 0.11rem;
+	color: #c8c6ce;
+	
+	line-height: 0.32rem;
+	width: auto;
+}
+.head .headli li .sou .iconfont{
+	font-size: 0.11rem;
+	color: #3879D9;
+	margin-left: 0.6rem;
+	line-height: 0.32rem;
+}
+.tu{
+	width: 100%;
+	height: auto;
+	margin-top: 0.44rem;
+}
+.tunei{
+	width: 100%;
+	height: 100%;
+	padding:0.07rem 0;
+	background:#3879D9 ;
+}
+.tunei ul{
+	display: flex;
+	justify-content: space-around;
+}
+.tunei ul li{
+	height: auto;
+	text-align: center;
+}
+.tunei ul li i{
+	font-style: normal;
+	font-size: 0.3rem;
+	color: #ffffff;
+}
+.tunei ul li p{
+	font-size: 0.12rem;
+	color: #ffffff;
+}
+/* tab */
+.tab{
+	width: 100%;
+	height: auto;
+	padding: 0.05rem 0;
+	background: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 998;
+	border-top: 2px solid #D6D6D6;
+   /*box-shadow: 0 0 0.1rem 0.01rem rgba(0, 0, 0, 0.3);*/
+}
+.tab ul{
+	width: 100%;
+	height: auto;
+     display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.tab ul li{
+	width: auto;
+	height: auto;
+}
+.tab ul li{
+	width: auto;
+	height: auto;
+}
+.tab ul li a{
+  display: block;
+}
+.tab ul li a .iconfont{
+  font-style: normal;
+  font-size: 0.2rem;
+  color: #7a7fa4;
+}
+.tab ul li a p{
+	font-size: 0.12rem;
+	color: #7a7fa4;
+}
+.tab ul li:first-child a .iconfont{
+  font-style: normal;
+  font-size: 0.2rem;
+  color: #3879D9;
+}
+.tab ul li:first-child a p{
+	font-size: 0.12rem;
+	color: #3879D9;
+}
+.bus{
+	width: 100%;
+	height: auto;
+}
+.bus ul{
+	padding: 0.1rem;
+	box-sizing: border-box;
+	background: #F3F3F3;
+}
+.bus ul li{
+	padding: 0.1rem 0;
+}
+.bus ul li,.bus ul li .bust{
+	width: 100%;
+}
+.bus ul li .bust{
+	display: flex;
+	align-items: center;
+}
+.bus ul li .bust span a{
+	font-size: 0.16rem;
+	color: #000;
+}
+.bus ul li .bust i{
+	color:#3879D9 ;
+	font-size: 0.3rem;
+	font-style: normal;
+	margin-right: 0.05rem;
+}
+.bus ul li .busb i{
+	color:#E6E6E6;
+	font-size: 0.15rem;
+	font-style: normal;
+	margin-right: 0.05rem;
+	padding-left: 0.1rem;
+	border-left: 1px solid #E6E6E6;
+	line-height: 37px;
+}
+.bus ul li p{
+	font-size: 0.10rem;
+}
+.bus ul li .busb{
+	padding: 0.1rem;
+	background: #f8f8f8;
+	display: flex;
+	justify-content: space-between;
+}
+.bus ul li .busb p:first-child{
+      float: left;
+}
+.bus ul li .busb p:last-child{
+	float: right;
+	padding-right: 0.05rem;
+	border-right: 1px solid #f5f5f5;
+}
+.bimg{
+	position: fixed;
+	bottom: 47px;
+	left: 0;
+	width: 100%;
+	height: auto;
+}
+.bimg img{
+	width: 100%;
+}

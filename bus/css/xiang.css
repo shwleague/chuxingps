@@ -1,0 +1,208 @@
+/*
+* @Author: Administrator
+* @Date:   2018-01-04 17:56:21
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-01-11 14:42:59
+*/
+@import url('bace.css');
+@font-face {
+	font-family: 'iconfont';  /* project id 531082 */
+	src: url('https://at.alicdn.com/t/font_531082_mrnaaegg95pqr529.eot');
+	src: url('https://at.alicdn.com/t/font_531082_mrnaaegg95pqr529.eot?#iefix') format('embedded-opentype'),
+	url('https://at.alicdn.com/t/font_531082_mrnaaegg95pqr529.woff') format('woff'),
+	url('https://at.alicdn.com/t/font_531082_mrnaaegg95pqr529.ttf') format('truetype'),
+	url('https://at.alicdn.com/t/font_531082_mrnaaegg95pqr529.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+}
+body{
+	height: auto;
+}
+.head{
+	width: 100%;
+	height: auto;
+	/* background: red; */
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	border-bottom: 6px solid #F3F3F3;
+}
+.head .headli{
+	padding: 0.02rem 0.2rem;
+	background:#fff;
+	height: 0.4rem;
+	border-bottom: 1px solid #c0c0c0;
+}
+.head .headli li{
+	width: auto;
+	float: left;
+	height: 0.4rem;
+}
+.head .headli li:first-child{
+	margin-right: 0.08rem;
+}
+.head .headli li .dingwei{
+	font-size: 0.15rem;
+	width: auto;
+	height: 0.4rem;
+	line-height: 0.4rem;
+}
+.head .headli li .iconfont{
+	transform: rotate(90deg);
+	font-size: 0.2rem;
+	font-style: normal;
+	color: #c8c6ce;
+	line-height: 0.32rem;
+	display: block;
+}
+.head .shu{
+	margin:0.1rem 0.15rem;
+	width: 100%;
+	height: auto;
+}
+.head .shu p:first-child{
+	color: #000000;
+	font-size: 0.12rem;
+}
+.head .shu p:last-child{
+	color: #696969;
+	font-size: 0.10rem;
+}
+.gx{
+
+	width: 100%;
+	height: auto;
+	border-bottom: 6px solid #F3F3F3;
+	position: fixed;
+	left:0;
+	top: 1.03rem;
+}
+.gxnei{
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	padding: 0.12rem 0.1rem;
+	display: flex;
+	justify-content: space-around;
+}
+.gxnei li{
+	width: auto;
+	height: auto;
+	text-align: center;
+}
+.gxnei li p:first-child{
+	width: 100%;
+	 font-size: 0.15rem;
+	font-weight: 400;
+	 display: inline-block;
+	color: #3879D9 ;
+ }
+.gxnei li p:last-child{
+	width: 100%;
+	font-size: 0.1rem;
+	display: inline-block;
+	color: #696969;
+}
+.gxnei li i{
+	font-style: normal;
+	font-size: 0.18rem;
+	color: #3879D9 ;
+}
+.usu{
+	margin-top: 1.75rem;
+	width: 14.2rem;
+	height:2.4rem;
+	padding: 0.18rem 0.1rem;
+	box-sizing: border-box;
+	background: #fafafa;
+}
+.usu .che i{
+	padding-left: 0.5rem;
+	font-style: normal;
+	color:red;
+}
+.usu .lu{
+	width:14rem;
+	height: 0.1rem;
+	background: #3879D9;
+	border-radius: 0.06rem;
+	padding:0 0.1rem;
+	box-sizing: border-box;
+
+}
+.usu .lu li{
+	float: left;
+	margin-right: 0.4rem;
+	width: 0.1rem;
+	height: auto;
+     display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	text-align: center;
+}
+.usu .lu li:last-child{
+	margin-right: 0;
+}
+.usu .lu li i{
+	font-size: 0.04rem;
+	color: #fff;
+	margin-bottom: 0.05rem;
+    font-style: normal;
+}
+.usu .lu li p{
+	display: block;
+	font-size: 0.05rem;
+	margin-bottom: 0.05rem;
+}
+/* tab */
+.tab{
+	width: 100%;
+	height: auto;
+	padding: 0.05rem 0;
+	background: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 998;
+}
+.tab ul{
+	width: 100%;
+	height: auto;
+     display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.tab ul li{
+	width: auto;
+	height: auto;
+}
+.tab ul li{
+	width: auto;
+	height: auto;
+}
+.tab ul li a{
+  display: block;
+	text-align: center;
+}
+.tab ul li a .iconfont{
+  font-style: normal;
+  font-size: 0.2rem;
+  color: #7a7fa4;
+}
+.tab ul li a p{
+	font-size: 0.12rem;
+	color: #7a7fa4;
+}
+
+.bimg{
+	position: fixed;
+	bottom: 47px;
+	left: 0;
+	width: 100%;
+	height: auto;
+}
+.bimg img{
+	width: 100%;
+}

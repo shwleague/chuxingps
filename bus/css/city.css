@@ -1,0 +1,45 @@
+@import "bace.css";
+.sorry{
+    padding:0.6rem 0.3rem;
+    text-align: center;
+}
+.sorry p{
+    font-size: 0.15rem;
+}
+.city{
+    margin:0.2rem auto;
+    width: 0.5rem;
+    height:auto;
+    padding: 0.05rem 0.15rem;
+    border: 1px solid #55a532;
+    border-radius: 0.06rem;
+    font-size: 0.15rem;
+    text-align: center;
+    color:#55a532 ;
+}
+.nubb{
+    width: auto;
+    height:auto;
+}
+.nubb input{
+    font-size: 0.11rem;
+    width: 100%;
+    height: auto;
+    padding:0.1rem 0.3rem;
+    box-sizing: border-box;
+}
+.nubb p{
+    font-size: 0.10rem;
+    text-align: center;
+}
+.nubb .zhi{
+    margin:0.2rem auto;
+    width: auto;
+    height:auto;
+    padding: 0.05rem 0.15rem;
+   background: #2e3192;
+    border-radius: 0.06rem;
+    font-size: 0.15rem;
+    text-align: center;
+    color:#fff ;
+}

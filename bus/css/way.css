@@ -1,0 +1,213 @@
+/*
+* @Author: Administrator
+* @Date:   2018-01-04 17:56:21
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-01-11 14:42:59
+*/
+@import url('bace.css');
+@font-face {
+	font-family: 'iconfont';  /* project id 531082 */
+	src: url('https://at.alicdn.com/t/font_531082_c31n5zg3xboz85mi.eot');
+	src: url('https://at.alicdn.com/t/font_531082_c31n5zg3xboz85mi.eot?#iefix') format('embedded-opentype'),
+	url('https://at.alicdn.com/t/font_531082_c31n5zg3xboz85mi.woff') format('woff'),
+	url('https://at.alicdn.com/t/font_531082_c31n5zg3xboz85mi.ttf') format('truetype'),
+	url('https://at.alicdn.com/t/font_531082_c31n5zg3xboz85mi.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+}
+body{
+	height: auto;
+}
+.head{
+	width: 100%;
+	height: auto;
+	/* background: red; */
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	border-bottom: 6px solid #F3F3F3;
+}
+.head .headli{
+	padding: 0.02rem 0.2rem;
+	background:#fff;
+	height: 0.4rem;
+	border-bottom: 1px solid #c0c0c0;
+}
+.head .headli li{
+	width: auto;
+	float: left;
+	height: 0.4rem;
+}
+.head .headli li:first-child{
+	margin-right: 0.08rem;
+}
+.head .headli li .dingwei{
+	font-size: 0.15rem;
+	width: auto;
+	height: 0.4rem;
+	line-height: 0.4rem;
+}
+.head .headli li .sou{
+	width:auto;
+	height: auto;
+	margin: 0.04rem 0  0 0;
+	float: right;
+}
+.head .headli li .iconfont{
+	transform: rotate(90deg);
+	font-size: 0.2rem;
+	color: #c8c6ce;
+	line-height: 0.32rem;
+	display: block;
+}
+.head .shu{
+	margin:0.15rem 0;
+	width: 100%;
+	height: auto;
+}
+.head .shu input{
+	outline: none;
+	border: none;
+	width: 70%;
+	height: 100%;
+	color: #58c5c7;
+	padding:0.03rem 0.3rem;
+	font-size: 0.12rem;
+	border-bottom: 1px solid #f1f1f1;
+}
+.head .shu .l{
+	 width: 0.1rem;
+	 height: 0.1rem;
+	 border-radius: 50%;
+	 background: #00ff7f;
+	display: inline-block;
+	 margin-left: 0.1rem;
+ }
+.head .shu .r{
+	width: 0.1rem;
+	height: 0.1rem;
+	border-radius: 50%;
+	background: red;
+	float: left;
+	margin-left: 0.1rem;
+}
+.gx{
+	margin-top: 1.44rem;
+	width: 100%;
+	height: auto;
+	border-bottom: 6px solid #F3F3F3;
+}
+.gxnei{
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	padding: 0.12rem 0.1rem;
+}
+.gxnei i{
+	font-style: normal;
+	font-size: 0.25rem;
+	color: #3879D9 ;
+	float: left;
+	margin-right: 0.3rem;
+}
+.gxnei p{
+   font-size: 0.13rem;
+	display: inline-block;
+}
+.gxnei p span{
+	font-size: 0.10rem;
+	color: #a9a9a9;
+}
+.gxnei .sm{
+	float: right;
+	font-size: 0.13rem;
+	width: auto;
+	height: auto;
+	border-radius: 0.1rem;
+	padding:0.02rem 0.05rem;
+	border: 1px solid  #3879D9;
+}
+.usu{
+	width: 100%;
+	padding: 0.12rem 0.1rem;
+	box-sizing: border-box;
+	background: #fafafa;
+}
+.usu h2{
+	color: #555;
+	font-size: 0.15rem;
+	padding: 0.12rem 0;
+	box-sizing: border-box;
+	font-weight: normal;
+}
+.usu ul li{
+	padding: 0.09rem;
+	display: flex;
+	justify-content: space-between;
+	font-size: 0.10rem;
+}
+.usu ul li p{
+	font-size: 0.10rem;
+}
+.usu ul li p:last-child{
+	color: #999;
+}
+/* tab */
+.tab{
+	width: 100%;
+	height: auto;
+	padding: 0.05rem 0;
+	background: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 998;
+}
+.tab ul{
+	width: 100%;
+	height: auto;
+     display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.tab ul li{
+	width: auto;
+	height: auto;
+}
+.tab ul li{
+	width: auto;
+	height: auto;
+}
+.tab ul li a{
+  display: block;
+}
+.tab ul li a .iconfont{
+  font-style: normal;
+  font-size: 0.2rem;
+  color: #7a7fa4;
+}
+.tab ul li a p{
+	font-size: 0.12rem;
+	color: #7a7fa4;
+}
+.tab ul li:nth-child(2) a .iconfont{
+  font-style: normal;
+  font-size: 0.2rem;
+  color:#3879D9;
+}
+.tab ul li:nth-child(2) a p{
+	font-size: 0.12rem;
+	color: #3879D9;
+}
+.bimg{
+	position: fixed;
+	bottom: 47px;
+	left: 0;
+	width: 100%;
+	height: auto;
+}
+.bimg img{
+	width: 100%;
+}
